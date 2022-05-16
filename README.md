@@ -95,3 +95,18 @@ npm i -D @cmcm/stylelint-config
 		'@cmcm/stylelint-config/preset/recommended',
 	],
 ```
+
+
+## 开发计划
+
+本包版本 | Stylelint 版本 | 状态 | 备注
+---:|---:|:---:|---
+0.3.x | 13.x | 可用
+0.4.x | 14.x | (TBD)
+
+
+***
+
+## License
+
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
