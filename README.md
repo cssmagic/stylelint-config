@@ -76,16 +76,16 @@ npm i -D @cmcm/stylelint-config
 * 附：[Stylelint 官方推荐的规则集（含代码风格）](https://github.com/stylelint/stylelint-config-standard/blob/master/index.js)
 
 
-## 配置包
+## 配置包 <a name="preset">&nbsp;</a>
 
 本包包含了多个预设的配置包，可以搭配使用。它们的含义分别如下：
 
 配置包 | 含义 | 备注
 ---|---|---
 `'@cmcm/stylelint-config'` | 包含 [所有规则](doc/rule.md) | 相当于同时启用以下三个配置包
-`'@cmcm/stylelint-config/preset/essential'` | 包含 [“疑似写错” 类型的规则](doc/rule.md#第一部分疑似写错) | **强制**所有项目使用
-`'@cmcm/stylelint-config/preset/recommended'` | 包含 [“限制语言特性” 类型的规则](doc/rule.md#第二部分限制语言特性) | 强烈推荐所有项目使用
-`'@cmcm/stylelint-config/preset/stylistic'` | 包含 [“代码风格约定” 类型的规则](doc/rule.md#第三部分代码风格约定) | 推荐使用
+`'@cmcm/stylelint-config/preset/essential'` | 包含 [“疑似写错” 类型的规则](doc/rule.md#possible-errors) | **强制**所有项目使用
+`'@cmcm/stylelint-config/preset/recommended'` | 包含 [“限制语言特性” 类型的规则](doc/rule.md#limit-language-features) | 强烈推荐所有项目使用
+`'@cmcm/stylelint-config/preset/stylistic'` | 包含 [“代码风格约定” 类型的规则](doc/rule.md#stylistic-issues) | 推荐使用
 
 我们可以在 `.stylelintrc.js` 文件的 `extends` 字段同时指定多个配置包：
 

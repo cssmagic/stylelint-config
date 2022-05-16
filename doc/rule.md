@@ -1,12 +1,13 @@
 # 规则总览
 
 > #### 图例
-> 
+>
 > * ℹ️ —— 点击此图标可以访问每条规则对应的 Stylelint 官方文档。
 > * ☑️️ —— 表示此规则属于 Stylelint 官方推荐规则。
 > * 🔧️️ —— 表示此规则可自动修复。
 
-## 第一部分：疑似写错
+
+## 第一部分：疑似写错 <a name="possible-errors">&nbsp;</a>
 
 #### Color
 
@@ -75,7 +76,8 @@
 * `'no-extra-semicolons': true` <sup>[ℹ️](https://stylelint.io/user-guide/rules/no-extra-semicolons) ☑️️ 🔧</sup> —— 禁止出现多余的分号。
 * `'no-invalid-double-slash-comments': true` <sup>[ℹ️](https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments) ☑️️</sup> —— 禁止在 CSS 源码中通过 `//` 实现类似注释的效果。Sass 等预处理器语言中的单行注释不受此规则影响。
 
-## 第二部分：限制语言特性
+
+## 第二部分：限制语言特性 <a name="limit-language-features">&nbsp;</a>
 
 #### Color
 
@@ -191,7 +193,8 @@
 * ~~`'max-nesting-depth': 999`~~ <sup>[ℹ️](https://stylelint.io/user-guide/rules/max-nesting-depth)</sup> —— [不限] 选择符的最大嵌套深度。
 * ~~`'no-unknown-animations': true`~~ <sup>[ℹ️](https://stylelint.io/user-guide/rules/no-unknown-animations)</sup> —— [不限] 是否引用未知的动画名。只要动画名在当前文件中没找到，就会被认为是未知的，但实际上动画有可能是在其它文件中定义的。
 
-## 第三部分：代码风格约定
+
+## 第三部分：代码风格约定 <a name="stylistic-issues">&nbsp;</a>
 
 #### Color
 
