@@ -4,6 +4,7 @@
 	"description": "Stylelint config for daily development",
 	"main": "index.js",
 	"scripts": {
+		"sync": "open https://npmmirror.com/sync/@cmcm/stylelint-config",
 		"test": "echo \"Tip: This script is not for unit-test!\n\"; stylelint ./test/test.scss"
 	},
 	"repository": "cssmagic/stylelint-config",
