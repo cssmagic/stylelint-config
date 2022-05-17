@@ -1,6 +1,6 @@
 {
 	"name": "@cmcm/stylelint-config",
-	"version": "0.3.0",
+	"version": "0.4.0-wip",
 	"description": "Stylelint config for daily development",
 	"main": "index.js",
 	"scripts": {
@@ -18,10 +18,10 @@
 		"npm": ">=5"
 	},
 	"devDependencies": {
-		"stylelint": "^13.2.1"
+		"stylelint": "14.*"
 	},
 	"peerDependencies": {
-		"stylelint": ">= 13"
+		"stylelint": "14.*"
 	},
 	"files": [
 		"*.js",

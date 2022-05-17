@@ -102,7 +102,7 @@ npm i -D @cmcm/stylelint-config
 本包版本 | Stylelint 版本 | 状态 | 备注
 ---:|---:|:---:|---
 0.3.x | 13.x | 可用
-0.4.x | 14.x | (TBD)
+0.4.x | 14.x | (WIP)
 
 
 ***
