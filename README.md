@@ -72,8 +72,8 @@ npm i -D @cmcm/stylelint-config
 <!-- -->
 
 * 附：[Stylelint 规则官方文档](https://stylelint.io/user-guide/rules)
-* 附：[Stylelint 官方推荐的规则集（核心规则）](https://github.com/stylelint/stylelint-config-recommended/blob/master/index.js)
-* 附：[Stylelint 官方推荐的规则集（含代码风格）](https://github.com/stylelint/stylelint-config-standard/blob/master/index.js)
+* 附：[Stylelint 官方推荐的规则集（核心规则）](https://github.com/stylelint/stylelint-config-recommended/blob/main/index.js)
+* 附：[Stylelint 官方推荐的规则集（含代码风格）](https://github.com/stylelint/stylelint-config-standard/blob/main/index.js)
 
 
 ## 配置包 <a name="preset">&nbsp;</a>
@@ -99,10 +99,10 @@ npm i -D @cmcm/stylelint-config
 
 ## 开发计划
 
-本包版本 | Stylelint 版本 | 状态 | 备注
+本包版本 | 适配 Stylelint 版本 | 状态 | 备注
 ---:|---:|:---:|---
-0.3.x | 13.x | 可用
-0.4.x | 14.x | (WIP)
+v0.3.x | v11.x | Done
+v0.4.x | v14.x | (WIP)
 
 
 ***
