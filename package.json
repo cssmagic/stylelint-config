@@ -17,11 +17,8 @@
 		"node": ">=12",
 		"npm": ">=5"
 	},
-	"devDependencies": {
-		"stylelint": "^13.2.1"
-	},
 	"peerDependencies": {
-		"stylelint": ">= 13"
+		"stylelint": "11.x"
 	},
 	"files": [
 		"*.js",
