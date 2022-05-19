@@ -1,10 +1,10 @@
 {
 	"name": "@cmcm/stylelint-config",
 	"version": "0.4.0-wip",
-	"description": "Stylelint config for daily development",
+	"description": "Stylelint config for daily development.",
 	"main": "index.js",
 	"scripts": {
-		"sync": "open https://npmmirror.com/sync/@cmcm/stylelint-config",
+		"postpublish": "npx npm-mirror-sync",
 		"test": "echo \"Tip: This script is not for unit-test!\n\"; stylelint ./test/test.scss"
 	},
 	"repository": "cssmagic/stylelint-config",
